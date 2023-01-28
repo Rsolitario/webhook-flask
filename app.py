@@ -10,7 +10,7 @@ def webhook():
     else:
         abort(400)
 
-@app.route("/")
+@app.route("/main")
 def home():
     return 'hola mundo'
 
