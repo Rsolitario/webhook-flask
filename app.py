@@ -73,7 +73,7 @@ async def webhook():
 
 @app.route("/main")
 def home():
-    return 'hola mundo'
+    return 'v0.01'
 
 
 if __name__ == '__main__':
